@@ -1,0 +1,10 @@
+#!/home/viktoriya/ModernTechnologies/myvenv/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'bucket-list==0.3.8','console_scripts','bucket-list'
+__requires__ = 'bucket-list==0.3.8'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('bucket-list==0.3.8', 'console_scripts', 'bucket-list')()
+    )
